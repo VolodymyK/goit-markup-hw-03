@@ -1,35 +1,37 @@
-.body{
+body{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 } 
+
 .header1{
     background: #FFFFFF;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-position: absolute;
-width: 1440px;
 height: 72px;
-left: 8px;
-top: 0px;
+border: 0px;
 
+}
+.conteiner{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
 }
 
 .logo{
+    padding-top: 24px;
+    width: 115px;
+    height: 24px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4D5AE5;
-    position: absolute;
-    left: 156px;
-    top: 24px;
 }
 .logo2{
     color: #2E2F42;
@@ -43,30 +45,21 @@ line-height: 24px;
 color: #2E2F42;
 
 }
-.page1{
-    position: absolute ;
-    left: 348px;
-    top: 24px;
+.link_list{
+    margin-top: -24px;
+    display: flex;
+    margin-left: 180px;
+    width: 261px;
+height: 24px;
+justify-content: space-between;
 }
-.page2{
-    position: absolute ;
-    left: 436px;
-    top: 24px;
-}
-.page3{
-    position: absolute ;
-    left: 542px;
-    top: 24px;
-}
-.email{
-    position: absolute ;
-    left: 940px;
-    top: 24px;
-}
-.tel{
-    position: absolute ;
-    left: 1133px;
-    top: 24px;
+.textto_list{
+    margin-top: -40px;
+    width: 344px;
+    height: 24px;
+    display: flex;
+    margin-left: 784px;
+    justify-content: space-between;
 }
 .pages:hover,
 .pages:focus {
@@ -85,31 +78,30 @@ color: #434455;
 color: #4D5AE5;
 }
 .title{
-    font-family: 'Roboto';
-    width: 500px;
-height: 120px;
+padding-top: 198px;
+padding-bottom: 48px;
+margin: auto;
+width: 500px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 56px;
 line-height: 60px;
 color: #FFFFFF;
-position: absolute;
-left: 474px;
-margin-top: 192px;
 text-align: center;
 letter-spacing: 0.02em;
-
 }
 .button_os{
+    margin-left: 490px;
+    margin-bottom: 186px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    width: 170px;
-    height: 51px;
-    position: absolute;
-    left: 635px;
-    top: 432px;
     color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
@@ -123,97 +115,35 @@ letter-spacing: 0.02em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-.strat{
-    position: absolute;
-left: 156px;
-top: 795px;
+.list1{
+    display: flex;
+    width: 1128px;
+height: 104px;
+margin-top: 128px;
+justify-content: space-between;
 }
-.punct{
-    position: absolute;
-left: 444px;
-top: 795px;
+.boxing_list1{
+    width: 264px;
+height: 104px;
 }
-.dilig{
-    position: absolute;
-left: 732px;
-top: 795px;
-}
-.tech{
-    position: absolute;
-left: 1020px;
-top: 795px;
 
-}
-.img1{
-    position: absolute;
-width: 360px;
-height: 300px;
-left: 156px;
-top: 1131px;
-}
-.img2{
-    position: absolute;
-width: 360px;
-height: 300px;
-left: 540px;
-top: 1131px;
-}
-.img3{
-    position: absolute;
-width: 360px;
-height: 300px;
-left: 924px;
-top: 1131px;
-}
-.tit_sec2{
-    position: absolute;
-    left: 559px;
-    top: 1019px;   
-}
-.tit_sec3{
-    margin-top: 120px;
-    margin-left: 639px;
-    width: 360px;
-height: 300px;
-}
-.mark{
-
-margin-top: -232px;
-margin-left: 156px;
-
-}
 .text_in_box{
     text-align: center;
 letter-spacing: 0.02em;
 }
-.tom{
-
-    margin-top: -381px;
-margin-left: 444px;
-
-}
-.camila{
-    margin-top: -381px;
-    margin-left: 732px;
-}
-.daniel{
-    
-    margin-top: -381px;
-    margin-left: 1020px;
-    
-}
 .team_box{
-    width: 264px;
-    height: 380px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
+height: 380px;
+}
+.img_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
 }
 .title1{
-    width: 1440px;
-    height: 603px;  
-    position: absolute;
-    top: 72px;
     background-color: #2E2F42;
 }
 .titles_p{
@@ -230,11 +160,23 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-width: 264px;
-height: 72px;
-
 color: #434455;
 }
+.tit_sec2{
+    margin-left: 418px;
+    margin-top: 120px;
+    margin-bottom: 72px;
+    width: 322px;
+    height: 40px;
+}
+.tit_sec3{
+    width: 162px;
+height: 40px;
+margin-bottom:72px;
+margin-left: 520px;
+padding-top: 120px
+}
+
 .title2{
     font-family: 'Roboto';
 font-style: normal;
@@ -250,7 +192,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
-
 color: #2E2F42;
 }
 .memb_work{
@@ -261,42 +202,27 @@ font-size: 16px;
 line-height: 24px;
 color: #434455;
 }
+.team_list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    margin: auto;
+}
 .team_section{
    background-color: #F4F4FD;
-   position: absolute;
-width: 1440px;
-height: 732px;
-left: 0px;
-top: 1551px;
-}
-.port_footer{
-    background-color: #2E2F42;
-
-    position: absolute;
-width: 1440px;
-height: 310px;
-left: 0px;
-top: 1764px;
-
 }
 .footer{
     background-color: #2E2F42;
-    position: absolute;
-width: 1440px;
-height: 310px;
-left: 0px;
-top: 2283px;
 }
 .footer_par{
+    width: 264px;
+height: 72px;
+padding-bottom: 100px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-width: 264px;
-height: 72px;
-margin-top: 16px;
-    margin-left: 156px;
 color: #E7E9FC;
 }
 .list{
@@ -306,17 +232,15 @@ color: #E7E9FC;
     text-decoration: none;
 }
 .footer_logo{
+    padding-top: 100px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    margin-top: 100px;
-    margin-left: 156px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4D5AE5;
 }
 .port_button{
@@ -325,8 +249,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 height: 48px;
-
-    color: #4D5AE5;
+color: #4D5AE5;
 background: #F4F4FD;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
@@ -338,58 +261,61 @@ border-radius: 4px;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
-.but1{
-margin-top: 168px;
-margin-left: 427px;
+.but_list{
+    display: flex;
+    justify-content: space-between;
+    width: 586px;
+    height: 48px;
+    margin-left: 217px;
+    margin-top: 96px;
+    margin-bottom: 72px;
 }
 .but-1{
     width: 69px;
-    height: 48px;    
-}
-.but2{
-    margin-top: -48px;
-    margin-left: 520px;
+height: 48px;
+
 }
 .but-2{
     width: 116px;
 height: 48px;
 }
-.but3{
-    margin-top: -48px;
-    margin-left: 660px;
-}
 .but-3{
     width: 78px;
 height: 48px;
 }
-.but4{
-    margin-top: -48px;
-    margin-left: 762px;
-}
 .but-4{
     width: 101px;
 height: 48px;
-}
-.but5{
-    margin-top: -48px;
-    margin-left: 887px;
+
 }
 .but-5{
     width: 126px;
 height: 48px;
-
+}
+.box_sizing{
+    width: 360px;
+height: 420px;
 }
 .port_list{
     font-family: 'Roboto';
 font-style: normal;
 line-height: 24px;
+display: flex;
+width: 1128px;
+height: 420px;
+margin-left: -58px;
+justify-content: space-between;
+}
+.port-list1{
+    padding-bottom: 48px;
+}
+.port-list2{
+    padding-bottom: 48px;
+}
+.port-list3{
+    padding-bottom: 48px;
 }
 .box1{
-    position: absolute;
-width: 360px;
-height: 420px;
-left: 156px;
-top: 288px;
 background: #FFFFFF;
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -406,60 +332,12 @@ cursor: pointer;
 .text-tit-box{
     font-weight: 600;
 font-size: 20px;
-padding-left: 16px;
 color: #2E2F42;
+margin-left: 16px;
 }
 .text-lower-box{
     font-weight: 400;
 font-size: 16px;
-padding-left: 16px;
 color: #434455;
-}
-.box_set{
-    width: 360px;
-height: 420px;
-}
-.box2{
-    position: absolute;
-left: 540px;
-top: 288px;
-}
-.box3{
-    position: absolute;
-left: 924px;
-top: 288px;
-}
-.box4{
-    position: absolute;
-left: 156px;
-top: 756px;
-}
-.box5{
-    position: absolute;
-
-left: 540px;
-top: 756px;
-}
-.box6{
-    position: absolute;
-width: 360px;
-height: 420px;
-left: 924px;
-top: 756px;
-}
-.box7{
-    position: absolute;
-
-left: 156px;
-top: 1224px;
-}
-.box8{
-    position: absolute;
-left: 540px;
-top: 1224px;
-}
-.box9{
-    position: absolute;
-left: 924px;
-top: 1224px;
+margin-left: 16px;
 }
