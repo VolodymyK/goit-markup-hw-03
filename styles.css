@@ -1,3 +1,14 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+}
+
 body{
     font-family: 'Roboto';
 font-style: normal;
@@ -8,21 +19,20 @@ font-size: 16px;
 .header1{
     background: #FFFFFF;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-height: 72px;
 border: 0px;
+padding-bottom: 24px;
 
 }
 .conteiner{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .logo{
     padding-top: 24px;
     width: 115px;
-    height: 24px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -50,13 +60,10 @@ color: #2E2F42;
     display: flex;
     margin-left: 180px;
     width: 261px;
-height: 24px;
 justify-content: space-between;
 }
 .textto_list{
-    margin-top: -40px;
-    width: 344px;
-    height: 24px;
+    margin-top: -24px;
     display: flex;
     margin-left: 784px;
     justify-content: space-between;
@@ -155,6 +162,7 @@ line-height: 24px;
 color: #2E2F42;
 }
 .parag{
+    padding-top: 8px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -162,19 +170,16 @@ font-size: 16px;
 line-height: 24px;
 color: #434455;
 }
-.tit_sec2{
-    margin-left: 418px;
+.sec2{
     margin-top: 120px;
+}
+.tit_sec2{
     margin-bottom: 72px;
-    width: 322px;
-    height: 40px;
+    text-align: center;
 }
 .tit_sec3{
-    width: 162px;
-height: 40px;
 margin-bottom:72px;
-margin-left: 520px;
-padding-top: 120px
+text-align: center;
 }
 
 .title2{
@@ -187,6 +192,8 @@ color: #2E2F42;
 
 }
 .team_memb{
+    padding-top: 32px;
+    padding-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -210,13 +217,14 @@ color: #434455;
 }
 .team_section{
    background-color: #F4F4FD;
+   margin-top: 120px;
+   padding-top: 120px;
 }
 .footer{
     background-color: #2E2F42;
 }
 .footer_par{
     width: 264px;
-height: 72px;
 padding-bottom: 100px;
     font-family: 'Roboto';
 font-style: normal;
@@ -232,6 +240,7 @@ color: #E7E9FC;
     text-decoration: none;
 }
 .footer_logo{
+    padding-bottom: 8px;
     padding-top: 100px;
     font-family: 'Raleway';
     font-style: normal;
@@ -272,30 +281,22 @@ border-radius: 4px;
 }
 .but-1{
     width: 69px;
-height: 48px;
 
 }
 .but-2{
     width: 116px;
-height: 48px;
 }
 .but-3{
     width: 78px;
-height: 48px;
 }
 .but-4{
     width: 101px;
-height: 48px;
 
 }
 .but-5{
     width: 126px;
-height: 48px;
 }
-.box_sizing{
-    width: 360px;
-height: 420px;
-}
+
 .port_list{
     font-family: 'Roboto';
 font-style: normal;
@@ -307,13 +308,13 @@ margin-left: -58px;
 justify-content: space-between;
 }
 .port-list1{
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .port-list2{
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .port-list3{
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .box1{
 background: #FFFFFF;
@@ -330,6 +331,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 cursor: pointer;
 }
 .text-tit-box{
+    padding-top: 32px;
+    padding-bottom: 8px;
     font-weight: 600;
 font-size: 20px;
 color: #2E2F42;
