@@ -148,7 +148,6 @@ letter-spacing: 0.02em;
 .img_list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
 }
 .title1{
     padding-top: 192px;
@@ -281,9 +280,6 @@ border-radius: 4px;
 .but_list{
     display: flex;
     justify-content: center;
-    width: 586px;
-    margin-left: 271px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 .but-1{
@@ -320,7 +316,8 @@ height: 1356px;
 flex-wrap: wrap;
 align-content: space-between}
 .port_sec1{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 96px;
 }
 
 .port-list1{
