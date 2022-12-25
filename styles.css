@@ -260,6 +260,10 @@ color: #E7E9FC;
     color: #4D5AE5;
 }
 .port_button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -284,7 +288,6 @@ border-radius: 4px;
 }
 .but{
     margin-right: 24px;
-    
 }
 
 
@@ -318,7 +321,6 @@ border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .box-shad{
-    border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .box-shad:hover{
@@ -327,17 +329,20 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 cursor: pointer;
 }
 .text-tit-box{
-    padding-top: 32px;
-    padding-bottom: 8px;
     font-weight: 600;
+    margin-bottom: 8px;
 font-size: 20px;
 color: #2E2F42;
-margin-left: 16px;
 }
 .text-lower-box{
     font-weight: 400;
 font-size: 16px;
 color: #434455;
-margin-left: 16px;
-margin-bottom: 32px;
+}
+.box_shad_pad{
+    border: 0.5px solid #F4F4FD;
+    border-top: none;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
