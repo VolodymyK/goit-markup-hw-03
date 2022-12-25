@@ -21,6 +21,8 @@ font-size: 16px;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 border: 0px;
 padding-bottom: 24px;
+    padding-top: 24px;
+
 
 }
 .conteiner{
@@ -31,13 +33,10 @@ padding-bottom: 24px;
 }
 
 .logo{
-    padding-top: 24px;
-    width: 115px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -85,7 +84,7 @@ color: #434455;
 color: #4D5AE5;
 }
 .title{
-padding-top: 198px;
+align-self: center;
 padding-bottom: 48px;
 margin: auto;
 width: 500px;
@@ -99,8 +98,8 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 .button_os{
-    margin-left: 490px;
-    margin-bottom: 186px;
+    display: block;
+    margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 16px;
@@ -120,13 +119,15 @@ letter-spacing: 0.02em;
     background: #404BBF;
     border: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+   
+}
+.section1{
+padding-top: 128px;
 }
 .list1{
     display: flex;
     width: 1128px;
 height: 104px;
-margin-top: 128px;
 justify-content: space-between;
 }
 .boxing_list1{
@@ -143,7 +144,6 @@ letter-spacing: 0.02em;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
-height: 380px;
 }
 .img_list{
     display: flex;
@@ -151,6 +151,8 @@ height: 380px;
     margin-bottom: 120px;
 }
 .title1{
+    padding-top: 192px;
+    padding-bottom: 192px;
     background-color: #2E2F42;
 }
 .titles_p{
@@ -162,7 +164,7 @@ line-height: 24px;
 color: #2E2F42;
 }
 .parag{
-    padding-top: 8px;
+    margin-top: 8px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -171,7 +173,9 @@ line-height: 24px;
 color: #434455;
 }
 .sec2{
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .tit_sec2{
     margin-bottom: 72px;
@@ -191,9 +195,12 @@ line-height: 40px;
 color: #2E2F42;
 
 }
+.pic_box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 .team_memb{
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -212,20 +219,22 @@ color: #434455;
 .team_list{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 120px;
     margin: auto;
 }
 .team_section{
    background-color: #F4F4FD;
-   margin-top: 120px;
    padding-top: 120px;
+       padding-bottom: 120px;
+
 }
 .footer{
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 .footer_par{
     width: 264px;
-padding-bottom: 100px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -240,8 +249,7 @@ color: #E7E9FC;
     text-decoration: none;
 }
 .footer_logo{
-    padding-bottom: 8px;
-    padding-top: 100px;
+    margin-bottom: 8px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -272,25 +280,29 @@ border-radius: 4px;
 }
 .but_list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 586px;
-    height: 48px;
-    margin-left: 217px;
+    margin-left: 427px;
     margin-top: 96px;
     margin-bottom: 72px;
 }
 .but-1{
     width: 69px;
-
+    margin-right: 24px;
 }
 .but-2{
     width: 116px;
+        margin-right: 24px;
+
 }
 .but-3{
     width: 78px;
+        margin-right: 24px;
+
 }
 .but-4{
     width: 101px;
+    margin-right: 24px;
 
 }
 .but-5{
@@ -302,11 +314,15 @@ border-radius: 4px;
 font-style: normal;
 line-height: 24px;
 display: flex;
-width: 1128px;
-height: 420px;
-margin-left: -58px;
 justify-content: space-between;
+width: 1128px;
+height: 1356px;
+flex-wrap: wrap;
+align-content: space-between}
+.port_sec1{
+    margin-bottom: 120px;
 }
+
 .port-list1{
     margin-bottom: 48px;
 }
@@ -343,4 +359,5 @@ margin-left: 16px;
 font-size: 16px;
 color: #434455;
 margin-left: 16px;
+margin-bottom: 32px;
 }
