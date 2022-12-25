@@ -282,28 +282,11 @@ border-radius: 4px;
     justify-content: center;
     margin-bottom: 72px;
 }
-.but-1{
-    width: 69px;
+.but{
     margin-right: 24px;
+    
 }
-.but-2{
-    width: 116px;
-        margin-right: 24px;
 
-}
-.but-3{
-    width: 78px;
-        margin-right: 24px;
-
-}
-.but-4{
-    width: 101px;
-    margin-right: 24px;
-
-}
-.but-5{
-    width: 126px;
-}
 
 .port_list{
     font-family: 'Roboto';
