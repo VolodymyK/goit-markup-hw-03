@@ -55,14 +55,12 @@ color: #2E2F42;
 
 }
 .link_list{
-    margin-top: -24px;
     display: flex;
     margin-left: 180px;
     width: 261px;
 justify-content: space-between;
 }
 .textto_list{
-    margin-top: -24px;
     display: flex;
     margin-left: 784px;
     justify-content: space-between;
@@ -85,7 +83,7 @@ color: #4D5AE5;
 }
 .title{
 align-self: center;
-padding-bottom: 48px;
+margin-bottom: 48px;
 margin: auto;
 width: 500px;
 font-family: 'Roboto';
