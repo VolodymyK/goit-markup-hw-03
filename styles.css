@@ -54,16 +54,19 @@ line-height: 24px;
 color: #2E2F42;
 
 }
+.aling_itms{
+    display: flex;
+}
 .link_list{
     display: flex;
-    margin-left: 180px;
     width: 261px;
 justify-content: space-between;
+margin-left: 77px;
 }
 .textto_list{
+    margin-left: auto;
     display: flex;
-    margin-left: 784px;
-    justify-content: space-between;
+width: 344px;    justify-content: space-between;
 }
 .pages:hover,
 .pages:focus {
@@ -84,7 +87,8 @@ color: #4D5AE5;
 .title{
 align-self: center;
 margin-bottom: 48px;
-margin: auto;
+margin-right: auto;
+margin-left: auto;
 width: 500px;
 font-family: 'Roboto';
 font-style: normal;
@@ -258,10 +262,10 @@ color: #E7E9FC;
     color: #4D5AE5;
 }
 .port_button{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
